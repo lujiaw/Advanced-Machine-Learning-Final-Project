@@ -29,15 +29,28 @@ The second notebook corresponding to Policy Gradient model, which consists of fo
 3. Set up parameters, which can be further experimented with
 4. Training the Policy network and save training results and videos
 
-In order to reproduce similar result under Pong-v0 environment, you just need to run all the kernels sequentially.
+The notebook is for training under Pong-v0 environment. In order to reproduce similar result under PongDeterministic-v4 environment, change the line of environment setting to: 
 
-In order to reproduce similar result under PongDeterministic-v4 environment, you need to change the line of environment setting to: 
-
-env = gym.make('PongDeterministic-v4')
+`env = gym.make('PongDeterministic-v4')`
 
 and run all the kernels sequentially.
 
-The trained agent under original Pong-v0 environmnet receives an average reward of 6 after 2 days of training on a Macbook Pro until 20,000 episodes.
-Below is an example of an episode played by our trained agent attaining a score of 6.
+The trained agent under original Pong-v0 environmnet receives an average reward of +6 after 2 days of training on a Macbook Pro until 22,000 episodes, and receices a full reward of +21 after 5 hours of training on a Macbook Pro unitil 5,000 episodes.
 
 ![image](fig/pg_reward%3D6.gif)
+![image](fig/pg_reward%2D21.gif)
+
+
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+
+```
+proj/
+├── lib/
+├── data/
+├── doc/
+├── figs/
+└── output/
+```
+
+Please see each subfolder for a README file.
+
