@@ -2,6 +2,13 @@
 
 This repository is for a final project Deep reinforcement learning with pixel features for the course Advanced Machine Learning (GR5242) • Fall 2018 at Columbia University
 
+## Team Members
+
+* Lujia Wang
+* Xiaorong Yuan
+* Shuyang Wang
+* Peilu Zhang
+
 A detailed report of this project can be found [here](doc/5242_Final_Report_Project_of_Pong_Game.pdf).
 
 ## DQN
