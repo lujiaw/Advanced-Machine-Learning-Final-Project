@@ -13,12 +13,12 @@ This repository is for a final project Deep reinforcement learning with pixel fe
 
 The first note book is code for DQN, you can turn on TEST_MODE for testing and producing gif, if you have the trained model in coressponding path. Those gifs are for the Double Dueling DQN model Wang, Z. (2015) and awjuliani. (2017), as we can see, different model produce very similar strategy.
 
-![image](../fig/wang.gif)
-![image](../fig/deter.gif)
+![image](fig/wang.gif)
+![image](fig/deter.gif)
 
 As promised in our report, we can also test same model with PongNoFrameskip-v4, because gif's fps restriction, the gif will be slower.
 
-![image](../fig/noFrameSkip.gif)
+![image](fig/noFrameSkip.gif)
 
 ## Policy Gradient
 
@@ -40,4 +40,4 @@ and run all the kernels sequentially.
 The trained agent under original Pong-v0 environmnet receives an average reward of 6 after 2 days of training on a Macbook Pro until 20,000 episodes.
 Below is an example of an episode played by our trained agent attaining a score of 6.
 
-![image](../fig/pg_reward%3D6.gif)
+![image](fig/pg_reward%3D6.gif)
