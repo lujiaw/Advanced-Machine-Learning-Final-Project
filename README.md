@@ -4,13 +4,6 @@ This repository is for a final project Deep reinforcement learning with pixel fe
 
 A detailed report of this project can be found [here](doc/5242_Final_Report_Project_of_Pong_Game.pdf).
 
-## Requirements
-
-- tensorflow-gpu
-- gym
-- gym[atari]
-- imageio
-
 ## DQN
 
 The first note book is code for DQN, you can turn on TEST_MODE for testing and producing gif, if you have the trained model in coressponding path. Those gifs are for the Double Dueling DQN model Wang, Z. (2015) and awjuliani. (2017), as we can see, different model produce very similar strategy.
