@@ -13,12 +13,12 @@ This repository is for a final project Deep reinforcement learning with pixel fe
 
 The first note book is code for DQN, you can turn on TEST_MODE for testing and producing gif, if you have the trained model in coressponding path. Those gifs are for the Double Dueling DQN model Wang, Z. (2015) and awjuliani. (2017), as we can see, different model produce very similar strategy.
 
-![image](fig/wang.gif)
-![image](fig/deter.gif)
+![image](figs/wang.gif)
+![image](figs/deter.gif)
 
 As promised in our report, we can also test same model with PongNoFrameskip-v4, because gif's fps restriction, the gif will be slower.
 
-![image](fig/noFrameSkip.gif)
+![image](figs/noFrameSkip.gif)
 
 ## Policy Gradient
 
@@ -37,19 +37,16 @@ and run all the kernels sequentially.
 
 The trained agent under original Pong-v0 environmnet receives an average reward of +6 after 2 days of training on a Macbook Pro until 22,000 episodes, and receices a full reward of +21 after 5 hours of training on a Macbook Pro unitil 5,000 episodes.
 
-![image](fig/pg_reward%3D6.gif)
-![image](fig/pg_reward%2D21.gif)
+![image](figs/pg_reward%3D6.gif)
+![image](figs/pg_reward%3D21.gif)
 
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+This folder is orgarnized as follows.
 
 ```
 proj/
-├── lib/
-├── data/
 ├── doc/
-├── figs/
-└── output/
+└── figs/
 ```
 
 Please see each subfolder for a README file.
